@@ -1,0 +1,11 @@
+fastapi~=0.120.2
+uvicorn
+whisper
+pydantic
+python-multipart
+ffmpeg-python
+transformers
+googletrans==4.0.0-rc1
+torch
+Pillow
+opencv-python
