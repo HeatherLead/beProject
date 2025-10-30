@@ -76,7 +76,7 @@ async def enhance_image(file: UploadFile = File(...)):
         img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
 
         # Enhance using HF model
-        enhanced = enhancer(img)[0]["image"]
+        enhanced = enhancer(img)
 
         # Save to temp output
         output_path = "enhanced_output.png"
